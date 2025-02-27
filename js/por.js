@@ -38,7 +38,13 @@ document.addEventListener("scroll", function () {
 let D_Cv = document.getElementById('D_Cv');
 
 D_Cv.onclick = function () {
-  window.alert("Download Completed 100%")
+  window.open("/cv/Mohamed_CV.pdf" , "blank");
+  const link = document.createElement("a");
+  link.href = "/cv/Mohamed_CV.pdf";  
+  link.download = "Mohamed_ELshahat_CV.pdf"; 
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 }
 
 
