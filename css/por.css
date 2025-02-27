@@ -492,11 +492,13 @@ li:hover h4 {
         height: 300px;
         width: 300px;
         margin: auto;
-        margin-bottom: 20px;
+        margin-top: 50px;
+
     }
 
     .home .photo img {
         margin-top: -20px;
+        height: 400px;
     }
 
     .home .content p {
@@ -531,6 +533,7 @@ li:hover h4 {
 /* buuton UI */
 /* From Uiverse.io by andrew-demchenk0 */ 
 .button {
+
     position: relative;
     width: 150px;
     height: 40px;
